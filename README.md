@@ -20,7 +20,11 @@ The following SCSS functions are used in the project.
 3. **mixins**
 4. **inheritance**
 5. **loops**
-  
+
+Web Page Design is:
+![Web Page](images/Web 1280 – 1.png)
+
+
 **Usage**
 
 To use this project, follow these steps:
