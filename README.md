@@ -22,7 +22,8 @@ The following SCSS functions are used in the project.
 5. **loops**
 
 Web Page Design is:
-![Web Page](images/Web 1280 – 1.png)
+![Web Page](images/"Web 1280 – 1.png")
+
 
 
 **Usage**
