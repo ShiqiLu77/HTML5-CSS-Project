@@ -1,19 +1,25 @@
-**HTML + CSS/SCSS Web Page Project - Assignment 4**
+**HTML% + CSS/SCSS Web Page**
 
-This is a project to learn SCSS Syntax and functions.
+This is a Web Site Writen in HTML5 + CSS/SCSS
 
-The following functions are used in the project.
+The following CSS selectors are used:
+
+1. **type/tag selector**
+2. **class selector**  
+3. **universal selector**  
+4. **combinators**  
+5. **Pseudo Class**  
+6. **Pseudo Element**
+
+The UI mainly used **Flexbox** for layouts.
+
+The following SCSS functions are used in the project.
 
 1. **variables**
 2. **nested selectors**
 3. **mixins**
 4. **inheritance**
 5. **loops**
-
-Also, original css file was organized into multiple scss files on UI features, common elements, layouts and components
-
- 
-  
   
 **Usage**
 
