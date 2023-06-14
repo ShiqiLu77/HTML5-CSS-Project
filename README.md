@@ -1,6 +1,8 @@
 **HTML% + CSS/SCSS Web Page**
 
 This is a Web Site Writen in HTML5 + CSS/SCSS
+Web Page Design is:
+![Web Page](images/Web%201280%20–%201.png)
 
 The following CSS selectors are used:
 
@@ -20,10 +22,6 @@ The following SCSS functions are used in the project.
 3. **mixins**
 4. **inheritance**
 5. **loops**
-
-Web Page Design is:
-![Web Page](images/Web%201280%20–%201.png)
-
 
 
 **Usage**
