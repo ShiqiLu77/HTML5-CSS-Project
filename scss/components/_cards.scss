@@ -1,0 +1,104 @@
+/* Cards */
+
+.base-card {
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-whitebg-narrowRec {
+    @extend .base-card; /* inheritance */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+    width: 400px;
+    height: 460px;
+  }
+  
+  .card-whitebg-wildRec {
+    @extend .base-card;
+    padding: 30px;
+    width: 520px;
+    height: 250px;
+  }
+  
+  .card-bluebg-narrowRec {
+    @extend .base-card;
+    background-color: #2BE0BF;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+    width: 400px;
+    height: 460px;
+  }
+  
+  .news-card {
+    margin-left: 20px;
+    @extend .base-card;
+    width: 360px;
+    height: 470px;
+  }
+  
+  .text-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+// .card-whitebg-narrowRec {
+//     background-color: white;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     justify-content: center;
+//     margin-left: 60px;
+//     margin-right: 60px;
+//     border-radius: 5px;
+//     padding: 50px;
+//     width: 400px;
+//     height: 460px;
+//     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+// }
+
+// .card-whitebg-wildRec {
+//     background-color: white;
+//     margin-left: 60px;
+//     margin-right: 60px;
+//     border-radius: 5px;
+//     padding: 30px;
+//     width: 520px;
+//     height: 250px;
+//     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+// }
+
+// .card-bluebg-narrowRec {
+//     background-color: #2BE0BF;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     justify-content: center;
+//     margin-left: 60px;
+//     margin-right: 60px;
+//     border-radius: 5px;
+//     padding: 50px;
+//     width: 400px;
+//     height: 460px;
+//     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+// }
+
+
+// .news-card {
+//     margin-left: 20px;
+//     border-radius: 5px;
+//     margin-right: 25px;
+//     width: 360px;
+//     height: 470px;
+//     background-color: white;
+//     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+// }
+
+// .text-card{
+//     padding-left: 20px;
+//     padding-right: 20px;
+// }

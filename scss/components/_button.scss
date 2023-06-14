@@ -1,0 +1,127 @@
+/* Buttons */
+.button-scroll-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(43, 224, 191);
+    border-radius: 50%;
+}
+  
+.button-scroll-top::before {
+    content: "^";
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+}
+
+// .button-bluebg {
+//     background-color: rgb(43, 224, 191);
+//     text-decoration: none;
+// }
+
+// .button-whitebg {
+//     background-color: rgb(255, 255, 255);
+//     text-decoration: none;
+// }
+
+// .button-transbg {
+//     background-color: rgba(255, 255, 255,0);
+//     text-decoration: none;
+// }
+
+@mixin button-style($bg-color) { /* mixins */
+    background-color: $bg-color;
+    text-decoration: none;
+  }
+  
+.button-bluebg {
+    @include button-style(rgb(43, 224, 191));
+}
+  
+.button-whitebg {
+    @include button-style(rgb(255, 255, 255));
+}
+
+.button-transbg {
+    @include button-style(rgba(255, 255, 255, 0));
+}  
+
+
+.blackfont {
+    color: black !important;
+}
+
+.whitefont {
+    color: white !important;
+}
+
+.bluefont {
+    color: rgb(43, 224, 191) !important;
+}
+
+.shape1 {
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-size: 16px !important;
+}
+
+.shape2 {
+    border-radius: 25px;
+    padding: 15px 40px;
+} 
+
+.shape3 {
+    border-radius: 5px;
+    padding: 20px 35px;
+    font-size: 14px !important;
+    text-align: center;
+    text-decoration: none;
+    max-width: 100px;
+} 
+
+.shape4 {
+    padding: 15px 30px;
+    max-width: 140px;
+    font-size: 16px !important;
+    text-align: center;
+}
+
+.shape5 {
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 20px 50px;
+    max-width: 140px;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.shape6 {
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 30px 80px;
+    max-width: 200px;
+    font-size: 30px !important;
+    text-align: center;
+}
+
+.shape7 {
+    padding-right: 100px;
+    max-width: 140px;
+    font-size: 20px !important;
+}
+
+
+.shape8{
+    height: 60px;
+    width: 220px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 230px;
+}

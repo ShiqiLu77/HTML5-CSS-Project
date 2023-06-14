@@ -1,0 +1,23 @@
+{
+  "name": "assignment-4-shiqilu77",
+  "version": "1.0.0",
+  "description": "**HTML + CSS/SCSS Web Page Project - Assignment 4**",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass scss/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/neu-mis-info-6150-summer-2023/assignment-4-ShiqiLu77.git)"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info-6150-summer-2023/assignment-4-ShiqiLu77/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info-6150-summer-2023/assignment-4-ShiqiLu77#readme",
+  "dependencies": {
+    "dec": "^0.0.1",
+    "sass": "^1.62.1"
+  }
+}

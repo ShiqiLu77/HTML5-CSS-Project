@@ -1,0 +1,97 @@
+/* two column layout*/
+.left-column .right-column{
+    flex: 1;
+}
+
+// /* left aligned row*/
+// .row-left {
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     justify-content: flex-start;
+// }
+
+// /* center aligned row*/
+// .row-center {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: rgb(33, 39, 68);
+// }
+
+
+.row {
+    display: flex;
+    align-items: center;
+}
+  
+.row-left {
+    @extend .row; /* inheritance */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+  
+.row-center {
+    @extend .row; /* inheritance */
+    justify-content: center;
+    color: rgb(33, 39, 68);
+}
+  
+  
+
+/* text area layout*/
+.text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 350px;
+    min-height: 580px;
+}
+
+/* title layout */
+.title{
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+    min-height: 300px;
+}
+
+
+.wide{
+    max-width: 680px;
+}
+
+.narrow{
+    max-width: 380px;
+}
+
+
+.card1, .card2, .card3{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.small {
+    width: 50px;
+    height: 50px;
+}
+
+.big {
+    width: 100px;
+    height: 100px;
+}
+
+.short{
+    width:500px;
+    height:80px;
+    box-sizing: border-box; 
+}
+  
+.long{
+    width: 1015px;
+    height: 160px;
+    margin-bottom: 50px;
+}
